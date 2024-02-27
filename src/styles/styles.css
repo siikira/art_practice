@@ -2,9 +2,24 @@
     font-family: "Manrope";
     src: url("../fonts/Manrope/Manrope-VariableFont_wght.ttf");
 }
-
+* {
+    box-sizing: border-box;
+}
 body {
     background-color: lavender;
 
     font-family:Manrope;
+    padding:0 20px;
+    margin:0 20px;
+
+    .container{
+        max-width: 1440px;
+        padding: 0px 22px;
+    }
+    container-header {
+display:flex;
+align-items:center;
+justify-content:space-between;
+    }
+
 }
